@@ -133,3 +133,12 @@
     .sixteen.columns, .one-third.column, .two-thirds.column { width: 420px; }
   }
 }
+
+/* =============================================================================
+   Box Model
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
