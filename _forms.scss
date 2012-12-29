@@ -1,0 +1,26 @@
+#{$all-text-inputs} {
+  display: block;
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: $sans;
+  color: #777;
+  margin: 0;
+  width: 210px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding: 6px 4px;
+  border: 1px solid #ccc;
+
+  &:focus {
+    border: 1px solid #aaa;
+    box-shadow:  0 0 3px rgba(0,0,0,.2);
+    color: #444;
+    outline: none;
+  }
+}
+
+label, legend {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+}
