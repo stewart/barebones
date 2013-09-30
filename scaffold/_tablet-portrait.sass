@@ -1,0 +1,57 @@
+@media only screen and (min-width : 768px) and (max-width : 969px)
+  $width: 749px
+  $margin: 10px
+
+  .container
+    width: $width
+
+    .column, .columns
+      margin: 0 $margin
+
+    .one.column, .one.columns
+      width: (($width / 12) - ($margin))
+    .two.columns
+      width: (($width / 12) * 2 - ($margin))
+    .three.columns
+      width: (($width / 12) * 3 - ($margin))
+    .four.columns
+      width: (($width / 12) * 4 - ($margin))
+    .five.columns
+      width: (($width / 12) * 5 - ($margin))
+    .six.columns
+      width: (($width / 12) * 6 - ($margin))
+    .seven.columns
+      width: (($width / 12) * 7 - ($margin))
+    .eight.columns
+      width: (($width / 12) * 8 - ($margin))
+    .nine.columns
+      width: (($width / 12) * 9 - ($margin))
+    .ten.columns
+      width: (($width / 12) * 10 - ($margin))
+    .eleven.columns
+      width: (($width / 12) * 11 - ($margin))
+    .twelve.columns
+      width: ($width - $margin)
+
+    .offset-by-one
+      margin-left: (($width / 12) + ($margin))
+    .offset-by-two
+      margin-left: (($width / 12) * 2 + ($margin))
+    .offset-by-three
+      margin-left: (($width / 12) * 3 + ($margin))
+    .offset-by-four
+      margin-left: (($width / 12) * 4 + ($margin))
+    .offset-by-five
+      margin-left: (($width / 12) * 5 + ($margin))
+    .offset-by-six
+      margin-left: (($width / 12) * 6 + ($margin))
+    .offset-by-seven
+      margin-left: (($width / 12) * 7 + ($margin))
+    .offset-by-eight
+      margin-left: (($width / 12) * 8 + ($margin))
+    .offset-by-nine
+      margin-left: (($width / 12) * 9 + ($margin))
+    .offset-by-ten
+      margin-left: (($width / 12) * 10 + ($margin))
+    .offset-by-eleven
+      margin-left: (($width / 12) * 11 + ($margin))

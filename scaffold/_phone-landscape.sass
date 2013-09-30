@@ -1,0 +1,19 @@
+@media only screen and (min-width : 321px) and (max-width: 767px)
+  $width: 420px
+  $margin: 0
+
+  .container
+    width: $width
+
+    .column, .columns
+      margin: 0 $margin
+
+    .one.column, .one.columns, .two.columns, .three.columns, .four.columns,
+    .five.columns, .six.columns, .seven.columns, .eight.columns, .nine.columns,
+    .ten.columns, .eleven.columns, .twelve.columns
+      width: $width
+
+    .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four,
+    .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight,
+    .offset-by-nine, .offset-by-ten, .offset-by-eleven
+      margin-left: $margin
