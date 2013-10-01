@@ -477,3 +477,39 @@ table {
     .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns,
     .container .ten.columns, .container .eleven.columns, .container .twelve.columns {
       width: 300px; } }
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10.5px;
+  text-rendering: optimizeLegibility; }
+
+h1 {
+  font-size: 2.286em;
+  line-height: 42px;
+  margin-bottom: 16.2px; }
+
+h2 {
+  font-size: 1.714em;
+  line-height: 35.7px;
+  margin-bottom: 12.6px; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 31.5px;
+  margin-bottom: 9px; }
+
+h4 {
+  font-size: 1.286em;
+  line-height: 27.3px;
+  margin-bottom: 5.4px; }
+
+h5 {
+  font-size: 1.143em;
+  line-height: 23.1px;
+  margin-bottom: 5.4px; }
+
+h6 {
+  font-size: 1em;
+  line-height: 21px;
+  margin-bottom: 5.4px; }
