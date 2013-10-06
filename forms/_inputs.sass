@@ -1,0 +1,28 @@
+#{$all-text-inputs}, textarea
+  border: 1px solid #ccc
+  color: #777
+  margin: 0
+  padding: 6px 4px
+  border-radius: 2px
+
+  &:not(:last-of-type)
+    margin-bottom: 20px
+
+  &:focus
+    border: 1px solid #aaa
+    box-shadow: 0 0 3px rgba(0,0,0,.2)
+    color: #444
+    outline: none
+
+#{$all-text-inputs}, select, textarea
+  font-family: $sans
+  width: 210px
+  display: block
+  font-size: 13px
+  max-width: 100%
+  margin-bottom: 20px
+
+input[type='checkbox'], input[type='radio']
+  margin: 4px 3px 0
+  line-height: normal
+  margin-bottom: 15px
