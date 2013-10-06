@@ -1,0 +1,46 @@
+ul, ol
+  padding: 0
+  margin: 0 0 $base-line-height / 2 25px
+
+ul ul, ul ol, ol ol, ol ul
+  margin-bottom: 0
+
+ul
+  list-style: square outside
+ol
+  list-style: decimal
+li
+  line-height: $base-line-height
+
+ul
+  &.unstyled, &.circle, &.disc
+    margin-left: 0
+  &.unstyled
+    list-style: none outside
+  &.circle
+    list-style: circle outside
+  &.disc
+    list-style: disc outside
+
+dl
+  margin-bottom: $base-line-height
+
+  &.horizontal
+
+    dt
+      float: left
+      width: 120px
+      clear: left
+      text-align: right
+
+    dd
+      margin-left: 130px
+
+dt, dd
+  line-height: $base-line-height
+
+dt
+  font-weight: bold
+
+dd
+  margin-left: $base-line-height / 2

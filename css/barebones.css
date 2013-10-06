@@ -477,6 +477,36 @@ table {
     .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns,
     .container .ten.columns, .container .eleven.columns, .container .twelve.columns {
       width: 300px; } }
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+  background: white; }
+
+small {
+  font-size: 14px;
+  color: #515151; }
+
+p {
+  margin-bottom: 10.5px; }
+
+hr {
+  margin: 21px 0;
+  border: 0;
+  border-bottom: 1px solid #bbbbbb; }
+
+a, a:visited {
+  text-decoration: none;
+  color: #0088cc; }
+
+a:hover {
+  color: #005580; }
+
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #dddddd; }
+
 h1, h2, h3, h4, h5, h6 {
   color: black;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -513,3 +543,80 @@ h6 {
   font-size: 1em;
   line-height: 21px;
   margin-bottom: 5.4px; }
+
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 21px;
+  border-left: 5px solid #b3b3b3; }
+  blockquote p {
+    margin-bottom: 0; }
+  blockquote cite {
+    display: block;
+    font-size: 14px;
+    color: #999999; }
+    blockquote cite:before {
+      content: "\2014 \0020"; }
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 10.5px 25px; }
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0; }
+
+ul {
+  list-style: square outside; }
+
+ol {
+  list-style: decimal; }
+
+li {
+  line-height: 21px; }
+
+ul.unstyled, ul.circle, ul.disc {
+  margin-left: 0; }
+ul.unstyled {
+  list-style: none outside; }
+ul.circle {
+  list-style: circle outside; }
+ul.disc {
+  list-style: disc outside; }
+
+dl {
+  margin-bottom: 21px; }
+  dl.horizontal dt {
+    float: left;
+    width: 120px;
+    clear: left;
+    text-align: right; }
+  dl.horizontal dd {
+    margin-left: 130px; }
+
+dt, dd {
+  line-height: 21px; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin-left: 10.5px; }
+
+code, pre {
+  font-family: Inconsolata, Menlo, Monaco, "Bitstream Vera Sans Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 21px;
+  background: #fafafa;
+  border: 1px solid #cccccc;
+  color: #444444; }
+
+code {
+  padding: 1px 3px;
+  border-radius: 3px; }
+
+pre {
+  display: block;
+  padding: 10.5px; }
+  pre code {
+    padding: 0;
+    background-color: transparent;
+    border: none; }
