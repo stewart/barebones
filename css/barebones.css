@@ -620,3 +620,25 @@ pre {
     padding: 0;
     background-color: transparent;
     border: none; }
+
+.flash {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #444444;
+  margin: 5px 0;
+  padding: 0 10px; }
+  .flash .close {
+    float: right; }
+  .flash.info {
+    background: #9acfea;
+    color: #17516d; }
+  .flash.notice {
+    background: #f0dc75;
+    color: #5c4f0a; }
+  .flash.error {
+    background: #ee9595;
+    color: #731212; }
+  .flash.success {
+    background: #9de382;
+    color: #255412; }
