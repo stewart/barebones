@@ -703,3 +703,40 @@ input[type='checkbox'], input[type='radio'] {
     border-color: #aaaaaa; }
   .button:active, button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
     box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.3); }
+
+table {
+  width: 100%;
+  margin-bottom: 21px;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  table th, table td {
+    padding: 8px;
+    line-height: 21px;
+    text-align: left;
+    border-top: 1px solid #a6a6a6; }
+  table th {
+    font-weight: bold;
+    vertical-align: bottom; }
+  table td {
+    vertical-align: top; }
+  table thead:first-child th, table thead:first-child td {
+    border-top: 0; }
+  table tbody + tbody {
+    border-top: 2px solid #a6a6a6; }
+
+table.condensed th, table.condensed td {
+  padding: 4px 5px; }
+
+table.striped tbody tr:nth-child(odd) td, table.striped tbody tr:nth-child(odd) th {
+  background-color: #f7f7f7; }
+
+table.bordered {
+  border: 1px solid #a6a6a6;
+  border-collapse: separate; }
+  table.bordered th + th, table.bordered td + td,
+  table.bordered th + td, table.bordered td + th {
+    border-left: 1px solid #a6a6a6; }
+  table.bordered thead:first-child tr:first-child th,
+  table.bordered tbody:first-child tr:first-child th,
+  table.bordered tbody:first-child tr:first-child td {
+    border-top: 0; }
